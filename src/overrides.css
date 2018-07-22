@@ -1,0 +1,69 @@
+/* TODO: styled components / SCSS instead */
+
+/* third party overrides */
+.react-datepicker__input-container, .react-datepicker-wrapper {
+  width: 100%;
+}
+
+.book-display-delete {
+  position: relative;
+  left: 3%;
+  z-index: 99;
+  top: 3%;
+}
+
+.cursor-text {
+  cursor: text;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.book-list {
+  justify-content: center;
+}
+
+.book-list .open-book-modal {
+  float: left;
+   position: relative;
+    left: 9%;
+}
+
+.book-modal-desc {
+  flex: 1 1 auto;
+}
+
+.home-wrapper {
+  padding: 8em 0em;
+}
+
+.home-menu {
+  padding: 5em 0em;
+}
+
+.side-bar {
+  min-height: 100vh 
+}
+
+.sign-up {
+   margin-left: 0.5em;
+}
+
+.mobile-container-segment {
+  min-height: 350;
+  padding: 1em 0em
+ }  
+
+ .loader {
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  left: 50%;
+  z-index: 999999;
+ }
+
+ .loader-background {
+background-color: black;
+opacity: 0.6;
+ }

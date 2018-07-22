@@ -1,0 +1,33 @@
+{
+  "name": "ariels-books-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "connected-react-router": "^4.3.0",
+    "history": "^4.7.2",
+    "loaders.css": "^0.1.2",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-datepicker": "^1.5.0",
+    "react-dom": "^16.4.1",
+    "react-form-validator-core": "^0.4.4",
+    "react-loaders": "^3.0.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "1.1.4",
+    "react-validation": "^3.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
