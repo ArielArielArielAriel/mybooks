@@ -67,3 +67,16 @@
 background-color: black;
 opacity: 0.6;
  }
+
+ .pacman > div:nth-child(3), .pacman > div:nth-child(4), .pacman > div:nth-child(5), .pacman > div:nth-child(6) {
+  background-color: #1a69a4  !important; /* just to make it work now */
+ }
+
+ /* just to make it work now */
+ .pacman > div:nth-child(2),
+.pacman > div:first-of-type {
+
+    border-top: 25px solid #1a69a4 !important;
+    border-left: 25px solid #1a69a4 !important;
+    border-bottom: 25px solid #1a69a4 !important;
+}

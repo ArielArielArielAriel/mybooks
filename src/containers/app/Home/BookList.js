@@ -36,7 +36,7 @@ class BookList extends React.Component {
     }
 }
 
-const mapStateToProps = ({ booksMainObj }) => ({
+const mapStateToProps = ({ booksMainObj, loader }) => ({
     books: booksMainObj.booksHashTable
 });
 
