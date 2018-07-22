@@ -86,7 +86,7 @@ class BookModal extends React.Component {
         
         if (errors && errors.length) return;
 
-        if (bookNames[currentBook.bookTitle] && bookNames[currentBook.bookTitle].id !== currentBook.id) {
+        if (bookNames[currentBook.bookTitle] && bookNames[currentBook.bookTitle] !== currentBook.id) {
             this.setState({isBookTitleUnique: false});
             return;
         }
