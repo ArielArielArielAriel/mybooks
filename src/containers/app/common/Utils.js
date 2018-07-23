@@ -19,12 +19,10 @@ var self = module.exports = {
             return `${txt.charAt(0).toUpperCase()}${txt.substr(1).toLowerCase()}`;
         });
     },
-    // Hebrew is supported
     toAlphabeticAndSpacesOnly: (str) => {
         if (self.isNullOrEmptyString(str)) return str;
 
-        //  return str.replace(/([^\w\s]|[\d])/gi, '');
-        return str.replace(/([^[a-z\u0590-\u05fe]+\s]|[\d])/gi, '');
+        return str.replace(/(?!d)\W+/g, " ")
     },
     toBookTitle: (str) => {
         if (self.isNullOrEmptyString(str)) return str;
