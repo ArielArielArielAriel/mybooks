@@ -22,7 +22,8 @@ var self = module.exports = {
     toAlphabeticAndSpacesOnly: (str) => {
         if (self.isNullOrEmptyString(str)) return str;
 
-        return str.replace(/(?!d)\W+/g, " ")
+        
+        return str.replace(/[^A-Za-z\u0590-\u05fe\s]/gi, '');
     },
     toBookTitle: (str) => {
         if (self.isNullOrEmptyString(str)) return str;
@@ -36,10 +37,6 @@ var self = module.exports = {
     },
     getCorsAnywhereUrl: (url) => {
         let proxyUrl = 'https://cors-anywhere.herokuapp.com/';
-
-        // proxyUrl =  'https://crossorigin.me/';
-
-        // proxyUrl = 'http://anyorigin.com/go/?url=';
 
         return `${proxyUrl}${url}`;
     },
